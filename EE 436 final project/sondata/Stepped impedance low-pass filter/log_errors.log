@@ -1,0 +1,23 @@
+Run 1:  Mon May 06 03:07:08 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\Stepped impedance low-pass filter.son.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 0, Stop = 6 GHZ
+
+    Post-Analysis information for em run 1:
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed Mon May 06 03:07:21 2024.
+
+
+Run 2:  Mon May 06 03:08:12 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\Stepped impedance low-pass filter.son.
+
+    Post-Analysis information for em run 2:
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed Mon May 06 03:08:12 2024.

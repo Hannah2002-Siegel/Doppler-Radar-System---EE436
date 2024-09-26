@@ -1,0 +1,12 @@
+Run 1:  Fri May 03 18:30:24 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\test.son.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 2, Stop = 4 GHZ
+
+    Post-Analysis information for em run 1:
+      Em errors detected: 0    Em warnings detected: 0.
+
+Em simulation completed Fri May 03 18:30:34 2024.

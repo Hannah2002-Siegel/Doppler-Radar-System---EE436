@@ -1,0 +1,68 @@
+Run 1:  Fri May 03 19:10:35 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\wilkinsons power divider.son.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 2, Stop = 4 GHZ
+
+    Frequency:  2 GHZ
+
+      De-embedded S-Parameters. 50 Ohm Port Terminations.
+      Magnitude/Angle. Touchstone Format. Matrix Order (line #1: S11 S12 S13 ...).
+      2.00000000 0.222773 -179.7 0.558858 -106.0 0.558696 -106.0
+                 0.558858 -106.0 0.258142 12.531 0.454396 170.26
+                 0.558696 -106.0 0.454396 170.26 0.257788 12.661
+      ! P1 F=2.0 Eeff=(3.72473 - j0.191102) Z0=(51.1175 - j0.0934129)
+      ! P2 F=2.0 Coupled port
+      ! P3 F=2.0 Coupled port
+
+    Frequency:  4 GHZ
+      4.00000000 0.201412 -179.3 0.463330 154.67 0.462900 154.70
+                 0.463330 154.67 0.211520 -132.4 0.315551 -8.206
+                 0.462900 154.70 0.315551 -8.206 0.212076 -132.0
+      ! P1 F=4.0 Eeff=(3.67519 - j0.193068) Z0=(51.935 - j0.845478)
+      ! P2 F=4.0 Coupled port
+      ! P3 F=4.0 Coupled port
+
+    Frequency:  2.73 GHZ
+      2.73000000 0.149235 -14.76 0.531536 87.192 0.531183 87.292
+                 0.531536 87.192 0.112243 25.784 0.055671 12.559
+                 0.531183 87.292 0.055671 12.559 0.113725 25.513
+      ! P1 F=2.73 Eeff=(3.70413 - j0.191369) Z0=(51.1806 - j0.280507)
+      ! P2 F=2.73 Coupled port
+      ! P3 F=2.73 Coupled port
+
+    Frequency:  3.62 GHZ
+      3.62000000 0.188397 -73.32 0.483117 -119.4 0.483532 -119.3
+                 0.483117 -119.4 0.340494 -63.82 0.330174 76.153
+                 0.483532 -119.3 0.330174 76.153 0.340266 -63.87
+      ! P1 F=3.62 Eeff=(3.68356 - j0.193586) Z0=(51.5658 - j0.533341)
+      ! P2 F=3.62 Coupled port
+      ! P3 F=3.62 Coupled port
+
+    Frequency:  2.29 GHZ
+      2.29000000 0.221947 102.38 0.542877 -172.2 0.542428 -172.2
+                 0.542877 -172.2 0.056189 -10.29 0.258366 105.96
+                 0.542428 -172.2 0.258366 105.96 0.056373 -9.110
+      ! P1 F=2.29 Eeff=(3.71551 - j0.190598) Z0=(51.1239 - j0.183018)
+      ! P2 F=2.29 Coupled port
+      ! P3 F=2.29 Coupled port
+
+    Frequency:  3.27 GHZ
+      3.27000000 0.081953 18.968 0.510631 -38.83 0.510696 -38.70
+                 0.510631 -38.83 0.226255 -8.574 0.180153 140.05
+                 0.510696 -38.70 0.180153 140.05 0.226527 -8.945
+      ! P1 F=3.27 Eeff=(3.69148 - j0.193075) Z0=(51.3623 - j0.40299)
+      ! P2 F=3.27 Coupled port
+      ! P3 F=3.27 Coupled port
+
+Em simulation completed Fri May 03 19:11:00 2024.
+
+
+Run 2:  Sat May 04 15:24:09 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\wilkinsons power divider.son.
+
+Em simulation completed Sat May 04 15:24:09 2024.

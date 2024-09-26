@@ -1,0 +1,193 @@
+Run 1:  Mon May 06 03:07:08 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\Stepped impedance low-pass filter.son.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 0, Stop = 6 GHZ
+
+    Frequency:  0.02 GHZ
+      Subsectioning at 6 GHz with Eeff of 2.7.
+      Subsectioning time:  0.008 seconds.
+      De-embedding information for top box wall port(s):
+        Top SOC Electric Wall: 27.5 mm length, 151 subsections, 2 MB.
+        Top SOC Magnetic Wall: 55 mm length, 147 subsections, 2 MB.
+      De-embedding information for bottom box wall port(s):
+        Bottom SOC Electric Wall: 27.5 mm length, 151 subsections, 2 MB.
+        Bottom SOC Magnetic Wall: 55 mm length, 147 subsections, 2 MB.
+      Em license feature:  emlite.
+
+      Circuit requires 683 subsections and 4 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Staircase:  683
+
+      Process memory by type:
+        System matrix:            4 MB
+        Elemental subsections:
+          Primary structure:      0 MB
+          Top standard:           0 MB
+          Bottom standard:        0 MB
+        Fourier transform:        0 MB
+        Waveguide mode:           1 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    6 MB
+
+      Amount of RAM installed on host computer:  16 GB
+      Number of logical processors:  8
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  local machine.
+      Threads:  using 1 thread(s), 8 core(s) available.
+      Waveguide mode time:  0.015 seconds.
+      Fourier transform time:  0.018 seconds.
+      Coupling time:  0.053 seconds.
+      Loss time:  0.004 seconds.
+      Matrix fill time:  0.091 seconds.
+      Matrix solve time:  0.063 seconds.
+      De-embedding time for top box wall:
+        SOC Electric Wall Std: 0.026 seconds.
+        SOC Magnetic Wall Std: 0.024 seconds.
+        Total:                 0.050 seconds.
+      De-embedding time for bottom box wall:
+        SOC Electric Wall Std: 0.025 seconds.
+        SOC Magnetic Wall Std: 0.022 seconds.
+        Total:                 0.047 seconds.
+      Frequency completed Mon May 06 03:07:08 2024.
+      Total time per frequency:  0.288 seconds.
+
+    Frequency:  6 GHZ
+      Waveguide mode time:  0.025 seconds.
+      Fourier transform time:  0.018 seconds.
+      Coupling time:  0.072 seconds.
+      Loss time:  0.004 seconds.
+      Matrix fill time:  0.120 seconds.
+      Matrix solve time:  0.074 seconds.
+      Frequency completed Mon May 06 03:07:08 2024.
+      Total time per frequency:  0.349 seconds.
+      ABS: Energy conservation for port 2 at 1.38 GHz.
+      ABS: Time = 0.412 seconds.
+
+    Frequency:  1.38 GHZ
+      Waveguide mode time:  0.019 seconds.
+      Fourier transform time:  0.017 seconds.
+      Coupling time:  0.062 seconds.
+      Loss time:  0.004 seconds.
+      Matrix fill time:  0.103 seconds.
+      Matrix solve time:  0.069 seconds.
+      Frequency completed Mon May 06 03:07:09 2024.
+      Total time per frequency:  0.710 seconds.
+      ABS: Energy conservation for port 1 at 0.04 GHz.
+      ABS: Time = 0.478 seconds.
+
+    Frequency:  0.04 GHZ
+      Waveguide mode time:  0.021 seconds.
+      Fourier transform time:  0.026 seconds.
+      Coupling time:  0.091 seconds.
+      Loss time:  0.005 seconds.
+      Matrix fill time:  0.144 seconds.
+      Matrix solve time:  0.095 seconds.
+      Frequency completed Mon May 06 03:07:10 2024.
+      Total time per frequency:  0.893 seconds.
+      ABS: Energy conservation for port 1 at 0.2 GHz.
+      ABS: Time = 0.514 seconds.
+
+    Frequency:  0.2 GHZ
+      Waveguide mode time:  0.014 seconds.
+      Fourier transform time:  0.019 seconds.
+      Coupling time:  0.101 seconds.
+      Loss time:  0.016 seconds.
+      Matrix fill time:  0.152 seconds.
+      Matrix solve time:  0.104 seconds.
+      Frequency completed Mon May 06 03:07:11 2024.
+      Total time per frequency:  0.907 seconds.
+      ABS: Energy conservation for port 1 at 4.76 GHz.
+      ABS: Time = 0.673 seconds.
+
+    Frequency:  4.76 GHZ
+      Waveguide mode time:  0.023 seconds.
+      Fourier transform time:  0.016 seconds.
+      Coupling time:  0.063 seconds.
+      Loss time:  0.005 seconds.
+      Matrix fill time:  0.107 seconds.
+      Matrix solve time:  0.071 seconds.
+      Frequency completed Mon May 06 03:07:12 2024.
+      Total time per frequency:  1 second.
+      ABS: Energy conservation for port 2 at 2.54 GHz.
+      ABS: Time = 0.683 seconds.
+
+    Frequency:  2.54 GHZ
+      Waveguide mode time:  0.015 seconds.
+      Fourier transform time:  0.016 seconds.
+      Coupling time:  0.068 seconds.
+      Loss time:  0.004 seconds.
+      Matrix fill time:  0.105 seconds.
+      Matrix solve time:  0.077 seconds.
+      Frequency completed Mon May 06 03:07:13 2024.
+      Total time per frequency:  1 second.
+      ABS: SNR = 19.2308 dB (50 dB Goal) for S1_2 at 5.52 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  5.52 GHZ
+      Waveguide mode time:  0.038 seconds.
+      Fourier transform time:  0.026 seconds.
+      Coupling time:  0.084 seconds.
+      Loss time:  0.007 seconds.
+      Matrix fill time:  0.156 seconds.
+      Matrix solve time:  0.074 seconds.
+      Frequency completed Mon May 06 03:07:14 2024.
+      Total time per frequency:  1 second.
+      ABS: SNR = 29.6835 dB (50 dB Goal) for S2_2 at 2.16 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2.16 GHZ
+      Waveguide mode time:  0.013 seconds.
+      Fourier transform time:  0.017 seconds.
+      Coupling time:  0.061 seconds.
+      Loss time:  0.004 seconds.
+      Matrix fill time:  0.096 seconds.
+      Matrix solve time:  0.070 seconds.
+      Frequency completed Mon May 06 03:07:16 2024.
+      Total time per frequency:  1 second.
+      ABS: SNR = 41.7425 dB (50 dB Goal) for S1_1 at 0.1 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  0.1 GHZ
+      Waveguide mode time:  0.013 seconds.
+      Fourier transform time:  0.021 seconds.
+      Coupling time:  0.087 seconds.
+      Loss time:  0.004 seconds.
+      Matrix fill time:  0.126 seconds.
+      Matrix solve time:  0.076 seconds.
+      Frequency completed Mon May 06 03:07:17 2024.
+      Total time per frequency:  1 second.
+      ABS: Time = 1 second.
+
+    Frequency:  3.64 GHZ
+      Waveguide mode time:  0.031 seconds.
+      Fourier transform time:  0.023 seconds.
+      Coupling time:  0.076 seconds.
+      Loss time:  0.007 seconds.
+      Matrix fill time:  0.139 seconds.
+      Matrix solve time:  0.088 seconds.
+      Frequency completed Mon May 06 03:07:19 2024.
+      Total time per frequency:  1 second.
+      ABS: SNR = 58.9214 dB (40 dB Goal) for S1_1 at 0.7 GHz.
+      ABS: Time = 1 second.
+
+    Post-Analysis information for em run 1:
+      Total time for 11 frequencies:  13 seconds.
+
+Em simulation completed Mon May 06 03:07:21 2024.
+
+
+Run 2:  Mon May 06 03:08:12 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\Stepped impedance low-pass filter.son.
+
+    Post-Analysis information for em run 2:
+      Total time for 0 frequencies:  0 seconds.
+
+Em simulation completed Mon May 06 03:08:12 2024.

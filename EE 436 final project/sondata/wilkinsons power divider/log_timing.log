@@ -1,0 +1,139 @@
+Run 1:  Fri May 03 19:10:35 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\wilkinsons power divider.son.
+
+    Begin electromagnetic simulation using frequency sweep:
+      ABS Start = 2, Stop = 4 GHZ
+
+    Frequency:  2 GHZ
+      Subsectioning at 4 GHz with Eeff of 2.7.
+      Subsectioning time:  0.028 seconds.
+      De-embedding information for left box wall port(s):
+        Left SOC Electric Wall: 17.5 mm length, 88 subsections, 3 MB.
+        Left SOC Magnetic Wall: 35 mm length, 84 subsections, 2 MB.
+      De-embedding information for right box wall port(s):
+        Right SOC Electric Wall: 17.5 mm length, 176 subsections, 3 MB.
+        Right SOC Magnetic Wall: 35 mm length, 168 subsections, 2 MB.
+      De-embedding information for component R1:
+        Main Std: X=100 mm Y=200 mm box size, 112 subsections, 5 MB.
+      Em license feature:  emlite.
+
+      Circuit requires 755 subsections and 4 MB of memory.
+
+      Primary structure subsections by level and type:
+      Level 0:
+        Surface Staircase:  755
+
+      Process memory by type:
+        System matrix:            4 MB
+        Elemental subsections:
+          Primary structure:      0 MB
+          Left standard:          0 MB
+          Right standard:         0 MB
+          CciR1 standard:         0 MB
+        Fourier transform:        1 MB
+        Waveguide mode:           3 MB
+        Adaptive band synthesis:  0 MB
+        Miscellaneous:            1 MB
+        TOTAL REQUIRED MEMORY:    9 MB
+
+      Amount of RAM installed on host computer:  16 GB
+      Number of logical processors:  8
+      Matrix solver:  internal 64-bit SSE with loss.
+      Simulation mode:  local machine.
+      Threads:  using 1 thread(s), 8 core(s) available.
+      Waveguide mode time:  0.087 seconds.
+      Fourier transform time:  0.210 seconds.
+      Coupling time:  0.369 seconds.
+      Loss time:  0.015 seconds.
+      Matrix fill time:  0.682 seconds.
+      Matrix solve time:  0.248 seconds.
+      De-embedding time for left box wall:
+        SOC Electric Wall Std: 0.098 seconds.
+        SOC Magnetic Wall Std: 0.083 seconds.
+        Total:                 0.181 seconds.
+      De-embedding time for right box wall:
+        SOC Electric Wall Std: 0.113 seconds.
+        SOC Magnetic Wall Std: 0.093 seconds.
+        Total:                 0.206 seconds.
+      De-embedding time for component R1:
+        Total: 0.456 seconds.
+      Frequency completed Fri May 03 19:10:37 2024.
+      Total time per frequency:  2 seconds.
+
+    Frequency:  4 GHZ
+      Waveguide mode time:  0.106 seconds.
+      Fourier transform time:  0.155 seconds.
+      Coupling time:  0.276 seconds.
+      Loss time:  0.017 seconds.
+      Matrix fill time:  0.555 seconds.
+      Matrix solve time:  0.204 seconds.
+      Frequency completed Fri May 03 19:10:38 2024.
+      Total time per frequency:  1 second.
+      ABS: Energy conservation for port 5 at 2.73 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2.73 GHZ
+      Waveguide mode time:  0.064 seconds.
+      Fourier transform time:  0.201 seconds.
+      Coupling time:  0.497 seconds.
+      Loss time:  0.028 seconds.
+      Matrix fill time:  0.791 seconds.
+      Matrix solve time:  0.417 seconds.
+      Frequency completed Fri May 03 19:10:44 2024.
+      Total time per frequency:  5 seconds.
+      ABS: SNR = 17.0623 dB (70.8064 dB Goal) for S1_5 at 3.62 GHz.
+      ABS: Time = 2 seconds.
+
+    Frequency:  3.62 GHZ
+      Waveguide mode time:  0.119 seconds.
+      Fourier transform time:  0.121 seconds.
+      Coupling time:  0.165 seconds.
+      Loss time:  0.011 seconds.
+      Matrix fill time:  0.417 seconds.
+      Matrix solve time:  0.139 seconds.
+      Frequency completed Fri May 03 19:10:48 2024.
+      Total time per frequency:  4 seconds.
+      ABS: SNR = 31.5053 dB (67.3957 dB Goal) for S1_3 at 2.29 GHz.
+      ABS: Time = 1 second.
+
+    Frequency:  2.29 GHZ
+      Waveguide mode time:  0.053 seconds.
+      Fourier transform time:  0.089 seconds.
+      Coupling time:  0.152 seconds.
+      Loss time:  0.008 seconds.
+      Matrix fill time:  0.307 seconds.
+      Matrix solve time:  0.141 seconds.
+      Frequency completed Fri May 03 19:10:51 2024.
+      Total time per frequency:  3 seconds.
+      ABS: SNR = 51.013 dB (67.3957 dB Goal) for S1_3 at 3.27 GHz.
+      ABS: Time = 4 seconds.
+
+    Frequency:  3.27 GHZ
+      Waveguide mode time:  0.105 seconds.
+      Fourier transform time:  0.133 seconds.
+      Coupling time:  0.237 seconds.
+      Loss time:  0.017 seconds.
+      Matrix fill time:  0.493 seconds.
+      Matrix solve time:  0.196 seconds.
+      Frequency completed Fri May 03 19:10:58 2024.
+      Total time per frequency:  6 seconds.
+      ABS: SNR = 75.9621 dB (67.3957 dB Goal) for S1_3 at 2.11 GHz.
+      ABS: Time = 1 second.
+
+    Post-Analysis information for em run 1:
+      Total time for 6 frequencies:  25 seconds.
+
+Em simulation completed Fri May 03 19:11:00 2024.
+
+
+Run 2:  Sat May 04 15:24:09 2024.  SL66199d8c.
+        Em version 18.53-Lite (64-bit Windows) on HANNAHS-LAPTOP local.
+
+  Project:  C:\Users\hanna\OneDrive\Desktop\EE 436 final project\wilkinsons power divider.son.
+
+    Post-Analysis information for em run 2:
+      Total time for 0 frequencies:  0 seconds.
+
+Em simulation completed Sat May 04 15:24:09 2024.
